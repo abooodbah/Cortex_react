@@ -1,0 +1,51 @@
+.navbar-light {
+  transition: 1000ms ease;
+  background: transparent;
+}
+
+.navbar {
+  border: none;
+}
+
+element.style {
+  border-radius: 50px;
+  background: #e4e4e4;
+  box-shadow: 5px 5px 10px #c2c2c2,              -5px -5px 10px #ffffff;
+}
+
+@media (max-width: 576px) {
+  #Kimg {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 577px) {
+  #Kimg {
+    width: 10rem;
+  }
+}
+
+@media (min-width: 577px) {
+  #Worldendimg {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #Worldendimg {
+    width: 5rem;
+  }
+}
+
+@media (min-width: 577px) {
+  #Cortex {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #Cortex {
+    width: 5rem;
+  }
+}
+

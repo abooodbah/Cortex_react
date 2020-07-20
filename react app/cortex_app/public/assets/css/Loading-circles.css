@@ -1,0 +1,55 @@
+.circles {
+  position: relative;
+  text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #bada55;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  opacity: .9;
+}
+
+.c1 {
+  background-color: #111;
+  animation: moving 2s ease-in-out infinite;
+  box-shadow: 0 0 20px #888;
+}
+
+.c2 {
+  background-color: #FFF;
+  animation: moving2 2s ease-in-out infinite;
+  box-shadow: 0 0 20px #BBB;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+    z-index: 33;
+  }
+  50% {
+    transform: translateX(110px) scale(1.1);
+  }
+  100% {
+    transform: translateX(0);
+    z-index: -33;
+  }
+}
+
+@keyframes moving2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-110px) scale(1.1);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
